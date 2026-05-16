@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+# DVC cache (large files)
+.dvc/cache/
+*.dvc.tmp
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+*.pkl
+
+# S3 credentials (never commit!)
+*.env
+secrets/
+
+# Processed data (keep raw only)
+data/processed/
+data/output/
+frames/
