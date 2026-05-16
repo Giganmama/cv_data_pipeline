@@ -1,0 +1,13 @@
+# DVC ignore patterns
+.dvc/tmp/
+.dvc/cache/
+*.tmp
+*.log
+
+# Exclude raw video files from DVC tracking (too large)
+*.mp4
+*.avi
+*.mov
+
+# Exclude processed frames (tracked separately)
+frames/*
